@@ -7,3 +7,6 @@
 [submodule "pathfinding"]
 	path = pathfinding
 	url = git@github.com:Skogix/pathfinding.git
+[submodule "skogix.github.io"]
+	path = skogix.github.io
+	url = git@github.com:Skogix/skogix.github.io.git
