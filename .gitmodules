@@ -4,9 +4,6 @@
 [submodule "csharpecs"]
 	path = csharpecs
 	url = git@github.com:Skogix/csharpecs.git
-[submodule "skogix.github.io"]
-	path = skogix.github.io
-	url = git@github.com:Skogix/skogix.github.io.git
 [submodule "pathfinding"]
 	path = pathfinding
 	url = git@github.com:Skogix/pathfinding.git
