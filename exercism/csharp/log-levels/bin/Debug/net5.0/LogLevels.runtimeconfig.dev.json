@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "/home/skogix/.dotnet/store/|arch|/|tfm|",
-      "/home/skogix/.nuget/packages"
-    ]
-  }
-}
