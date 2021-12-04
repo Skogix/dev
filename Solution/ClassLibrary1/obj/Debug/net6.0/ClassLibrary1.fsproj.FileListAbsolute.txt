@@ -1,0 +1,10 @@
+/home/skogix/dev/Solution/ClassLibrary1/bin/Debug/net6.0/ClassLibrary1.deps.json
+/home/skogix/dev/Solution/ClassLibrary1/bin/Debug/net6.0/ClassLibrary1.dll
+/home/skogix/dev/Solution/ClassLibrary1/bin/Debug/net6.0/ClassLibrary1.pdb
+/home/skogix/dev/Solution/ClassLibrary1/bin/Debug/net6.0/ClassLibrary1.xml
+/home/skogix/dev/Solution/ClassLibrary1/obj/Debug/net6.0/ClassLibrary1.fsproj.AssemblyReference.cache
+/home/skogix/dev/Solution/ClassLibrary1/obj/Debug/net6.0/ClassLibrary1.AssemblyInfoInputs.cache
+/home/skogix/dev/Solution/ClassLibrary1/obj/Debug/net6.0/ClassLibrary1.AssemblyInfo.fs
+/home/skogix/dev/Solution/ClassLibrary1/obj/Debug/net6.0/ClassLibrary1.dll
+/home/skogix/dev/Solution/ClassLibrary1/obj/Debug/net6.0/ClassLibrary1.xml
+/home/skogix/dev/Solution/ClassLibrary1/obj/Debug/net6.0/ClassLibrary1.pdb
