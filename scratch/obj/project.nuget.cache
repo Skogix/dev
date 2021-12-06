@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "1I6Kb1HJb9cxnf+c5MAsvDv7WwE8ahfyJ9SofVu9i8WULYjngjEfr4QS1L9d5312G3SDwFNIghlBTTwtHnFKMg==",
+  "success": true,
+  "projectFilePath": "/home/skogix/dev/scratch/scratch.fsproj",
+  "expectedPackageFiles": [
+    "/home/skogix/.nuget/packages/fsharp.core/6.0.1/fsharp.core.6.0.1.nupkg.sha512",
+    "/home/skogix/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.0/microsoft.aspnetcore.app.ref.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
