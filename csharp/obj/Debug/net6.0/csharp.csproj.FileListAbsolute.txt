@@ -1,0 +1,15 @@
+/home/skogix/dev/csharp/bin/Debug/net6.0/csharp
+/home/skogix/dev/csharp/bin/Debug/net6.0/csharp.deps.json
+/home/skogix/dev/csharp/bin/Debug/net6.0/csharp.runtimeconfig.json
+/home/skogix/dev/csharp/bin/Debug/net6.0/csharp.dll
+/home/skogix/dev/csharp/bin/Debug/net6.0/ref/csharp.dll
+/home/skogix/dev/csharp/bin/Debug/net6.0/csharp.pdb
+/home/skogix/dev/csharp/obj/Debug/net6.0/csharp.csproj.AssemblyReference.cache
+/home/skogix/dev/csharp/obj/Debug/net6.0/csharp.GeneratedMSBuildEditorConfig.editorconfig
+/home/skogix/dev/csharp/obj/Debug/net6.0/csharp.AssemblyInfoInputs.cache
+/home/skogix/dev/csharp/obj/Debug/net6.0/csharp.AssemblyInfo.cs
+/home/skogix/dev/csharp/obj/Debug/net6.0/csharp.csproj.CoreCompileInputs.cache
+/home/skogix/dev/csharp/obj/Debug/net6.0/csharp.dll
+/home/skogix/dev/csharp/obj/Debug/net6.0/ref/csharp.dll
+/home/skogix/dev/csharp/obj/Debug/net6.0/csharp.pdb
+/home/skogix/dev/csharp/obj/Debug/net6.0/csharp.genruntimeconfig.cache
