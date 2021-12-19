@@ -10,8 +10,9 @@ type Test =
     | A of int
     | B
     | C
-let test x =
-    match x with
+let test = function
     | A n -> ()
+    | B -> failwith "Not Implemented"
+    | C -> failwith "Not Implemented"
 let recite (startBottles: int) (takeDown: int): string list = 
     []
