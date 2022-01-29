@@ -1,0 +1,15 @@
+/home/skogix/dev/templates/CSharpConsole/CSharpConsole/bin/Debug/net6.0/CSharpConsole
+/home/skogix/dev/templates/CSharpConsole/CSharpConsole/bin/Debug/net6.0/CSharpConsole.deps.json
+/home/skogix/dev/templates/CSharpConsole/CSharpConsole/bin/Debug/net6.0/CSharpConsole.runtimeconfig.json
+/home/skogix/dev/templates/CSharpConsole/CSharpConsole/bin/Debug/net6.0/CSharpConsole.dll
+/home/skogix/dev/templates/CSharpConsole/CSharpConsole/bin/Debug/net6.0/ref/CSharpConsole.dll
+/home/skogix/dev/templates/CSharpConsole/CSharpConsole/bin/Debug/net6.0/CSharpConsole.pdb
+/home/skogix/dev/templates/CSharpConsole/CSharpConsole/obj/Debug/net6.0/CSharpConsole.csproj.AssemblyReference.cache
+/home/skogix/dev/templates/CSharpConsole/CSharpConsole/obj/Debug/net6.0/CSharpConsole.GeneratedMSBuildEditorConfig.editorconfig
+/home/skogix/dev/templates/CSharpConsole/CSharpConsole/obj/Debug/net6.0/CSharpConsole.AssemblyInfoInputs.cache
+/home/skogix/dev/templates/CSharpConsole/CSharpConsole/obj/Debug/net6.0/CSharpConsole.AssemblyInfo.cs
+/home/skogix/dev/templates/CSharpConsole/CSharpConsole/obj/Debug/net6.0/CSharpConsole.csproj.CoreCompileInputs.cache
+/home/skogix/dev/templates/CSharpConsole/CSharpConsole/obj/Debug/net6.0/CSharpConsole.dll
+/home/skogix/dev/templates/CSharpConsole/CSharpConsole/obj/Debug/net6.0/ref/CSharpConsole.dll
+/home/skogix/dev/templates/CSharpConsole/CSharpConsole/obj/Debug/net6.0/CSharpConsole.pdb
+/home/skogix/dev/templates/CSharpConsole/CSharpConsole/obj/Debug/net6.0/CSharpConsole.genruntimeconfig.cache

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.nuget/packages/yolodev.expecto.testsdk/0.8.0/build/netcoreapp2.0/expecto.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="AvaloniaFuncUIQuickStart" t="IncludeRecursive">
+        <e p="About.fs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="Avalonia" t="Include">
+                <e p="resources" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Program.fs" t="Include" />
+        <e p="AvaloniaFuncUIQuickStart.fsproj" t="IncludeRecursive" />
+        <e p="Shell.fs" t="Include" />
+        <e p="Styles.xaml" t="Include" />
+        <e p="TreeViewPage.fs" t="Include" />
+        <e p="UserProfiles.fs" t="Include" />
+      </e>
+      <e p="AvaloniaFuncUIQuickStart.Core" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Library.fs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="AvaloniaFuncUIQuickStart.Core.fsproj" t="IncludeRecursive" />
+        <e p="Users.fs" t="Include" />
+      </e>
+      <e p="AvaloniaFuncUIQuickStart.Core.Tests" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Main.fs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="AvaloniaFuncUIQuickStart.Core.Tests.fsproj" t="IncludeRecursive" />
+        <e p="Sample.fs" t="Include" />
+      </e>
+      <e p="AvaloniaFuncUIQuickStart.sln" t="IncludeFlat" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_AvaloniaFuncUIQuickStart.1287690490.00" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
+  </component>
+</project>

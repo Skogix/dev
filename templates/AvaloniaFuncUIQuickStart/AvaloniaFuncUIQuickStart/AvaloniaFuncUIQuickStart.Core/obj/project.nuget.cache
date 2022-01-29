@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "nhoXwC7Py3Eq2KE3nXxKPyysFTL6pGrwxEOVB596xMcRDHyMKqf1rM+RAFvCJQtxp5ZWPo7qlm6mUBkV6HIpDw==",
+  "success": true,
+  "projectFilePath": "/home/skogix/dev/templates/AvaloniaFuncUIQuickStart/AvaloniaFuncUIQuickStart/AvaloniaFuncUIQuickStart.Core/AvaloniaFuncUIQuickStart.Core.fsproj",
+  "expectedPackageFiles": [
+    "/home/skogix/.nuget/packages/fsharp.core/6.0.1/fsharp.core.6.0.1.nupkg.sha512",
+    "/home/skogix/.nuget/packages/fsharp.data/3.3.3/fsharp.data.3.3.3.nupkg.sha512"
+  ],
+  "logs": []
+}

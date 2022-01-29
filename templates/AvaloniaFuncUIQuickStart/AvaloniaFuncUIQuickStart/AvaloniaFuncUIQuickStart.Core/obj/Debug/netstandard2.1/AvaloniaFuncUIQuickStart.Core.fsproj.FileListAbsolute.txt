@@ -1,0 +1,8 @@
+/home/skogix/dev/templates/AvaloniaFuncUIQuickStart/AvaloniaFuncUIQuickStart/AvaloniaFuncUIQuickStart.Core/bin/Debug/netstandard2.1/AvaloniaFuncUIQuickStart.Core.deps.json
+/home/skogix/dev/templates/AvaloniaFuncUIQuickStart/AvaloniaFuncUIQuickStart/AvaloniaFuncUIQuickStart.Core/bin/Debug/netstandard2.1/AvaloniaFuncUIQuickStart.Core.dll
+/home/skogix/dev/templates/AvaloniaFuncUIQuickStart/AvaloniaFuncUIQuickStart/AvaloniaFuncUIQuickStart.Core/bin/Debug/netstandard2.1/AvaloniaFuncUIQuickStart.Core.pdb
+/home/skogix/dev/templates/AvaloniaFuncUIQuickStart/AvaloniaFuncUIQuickStart/AvaloniaFuncUIQuickStart.Core/obj/Debug/netstandard2.1/AvaloniaFuncUIQuickStart.Core.fsproj.AssemblyReference.cache
+/home/skogix/dev/templates/AvaloniaFuncUIQuickStart/AvaloniaFuncUIQuickStart/AvaloniaFuncUIQuickStart.Core/obj/Debug/netstandard2.1/AvaloniaFuncUIQuickStart.Core.AssemblyInfoInputs.cache
+/home/skogix/dev/templates/AvaloniaFuncUIQuickStart/AvaloniaFuncUIQuickStart/AvaloniaFuncUIQuickStart.Core/obj/Debug/netstandard2.1/AvaloniaFuncUIQuickStart.Core.AssemblyInfo.fs
+/home/skogix/dev/templates/AvaloniaFuncUIQuickStart/AvaloniaFuncUIQuickStart/AvaloniaFuncUIQuickStart.Core/obj/Debug/netstandard2.1/AvaloniaFuncUIQuickStart.Core.dll
+/home/skogix/dev/templates/AvaloniaFuncUIQuickStart/AvaloniaFuncUIQuickStart/AvaloniaFuncUIQuickStart.Core/obj/Debug/netstandard2.1/AvaloniaFuncUIQuickStart.Core.pdb
