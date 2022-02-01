@@ -1,0 +1,10 @@
+
+2022-02-01T16:45:33.520 WARN (pid:1265168) [workspace] - workspace.createStatusBarItem is deprecated, please use window.createStatusBarItem instead. 
+    at LanguageServerProvider.<anonymous> (/home/skogix/.config/coc/extensions/node_modules/coc-fsharp/node_modules/coc-utils/out/langserver.js:76:45)
+    at Generator.next (<anonymous>)
+2022-02-01T16:45:33.545 INFO (pid:1265168) [coc-git] - Looking for git in: git
+2022-02-01T16:45:33.623 INFO (pid:1265168) [plugin] - coc.nvim initialized with node: v17.3.0 after 208ms
+2022-02-01T16:45:37.200 INFO (pid:1265168) [attach] - receive notification: showInfo []
+
+
+
