@@ -129,8 +129,8 @@ sValueRef := choice
     pValueNumber
     pValueObject
     pValueString
-    pValueCommand
     pValueArray
+    pValueCommand
   ]
 let printSParse (input:string) = printResult (run sSharpValue input)
 let getSParse (input:string) = run sSharpValue input

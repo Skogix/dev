@@ -1,4 +1,53 @@
+## Exempel
 
+```f# script
+true -> Sbool true
+false -> Sbool false
+null -> SNull
+42 -> SNumber 42.0
+0.5 -> SNumber 0.5
+command "string" -> SCommand ("command", Some (SString "string"))
+foo -> SCommand ("foo", None)
+"foo" -> SString "foo"
+{"objectString": "str"} -> SObject (map [("objectString", SString "str")])
+// https://json.org/example.html
+{"menu":
+    {"id": "file", "value": "File", "popup": {"menuitem": [
+        {"value": "New", "onclick": "CreateNewDoc"},
+        {"value": "Open", "onclick": "OpenDoc"},
+        {"value": "Close", "onclick": "CloseDoc"}
+    ]}}
+} -> 
+SObject
+  (map
+     [("menu",
+       SObject
+         (map
+            [("id", SString "file");
+             ("popup",
+              SObject
+                (map
+                   [("menuitem",
+                     SCommand
+                       ("",
+                        Some
+                          (SArray
+                             [SObject
+                                (map
+                                   [("onclick", SString "CreateNewDoc");
+                                    ("value", SString "New")]);
+                              SObject
+                                (map
+                                   [("onclick", SString "OpenDoc");
+                                    ("value", SString "Open")]);
+                              SObject
+                                (map
+                                   [("onclick", SString "CloseDoc");
+                                    ("value", SString "Close")])])))]));
+             ("value", SString "File")]))])
+```
+
+## Funktioner
 __parseChar__ `char -> Parser<char>`<br />
 grundfunktionen som skapar en parser från en char
 
@@ -29,7 +78,6 @@ höjer en value till en parser
 __<*>__ `Parser<('a -> 'b)> -> Parser<'a> -> Parser<'b>`<br />
 __applyParser__ : kör en (a->b)-parser på en value 
 
-##### Exempel
 ```f# script
 let parseDigit = anyOf ['0'..'9']
 let parseThreeDigitsAsStr =
