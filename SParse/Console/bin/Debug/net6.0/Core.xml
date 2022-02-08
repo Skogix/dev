@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>Core</name></assembly>
+<members>
+<member name="T:Core.Common.Parser`1">
+<summary>
+ wrapper till alla parsers
+</summary>
+</member>
+<member name="T:Core.Common.Result`1">
+<summary>
+ resultatet av en parseing
+</summary>
+</member>
+<member name="P:Core.Common.parseFloat">
+<summary>
+ parsea en float
+</summary>
+</member>
+<member name="P:Core.Common.parseInt">
+<summary>
+ parsea en int
+</summary>
+</member>
+<member name="P:Core.Common.digitChar">
+<summary>
+ parsea en digit
+</summary>
+</member>
+<member name="P:Core.Common.parseWhitespace">
+<summary>
+ parsear single whitespace
+</summary>
+</member>
+<member name="M:Core.Common.parseString(System.String)">
+<summary>
+ mappar string -&gt; parser
+</summary>
+</member>
+<member name="M:Core.Common.manyChars1(Core.Common.Parser{System.Char})">
+<summary>
+ skapar en parser&lt;string&gt; av 1+ parsers 
+</summary>
+</member>
+<member name="M:Core.Common.manyChars(Core.Common.Parser{System.Char})">
+<summary>
+ skapar en parser&lt;string&gt; av 0+ parsers 
+</summary>
+</member>
+<member name="M:Core.Common.separatedBy1``2(Core.Common.Parser{``0},Core.Common.Parser{``1})">
+<summary>
+ parsear 1+ av p som separeras av sep
+</summary>
+</member>
+<member name="M:Core.Common.between``3(Core.Common.Parser{``0},Core.Common.Parser{``1},Core.Common.Parser{``2})">
+<summary>
+ behåller mitten
+</summary>
+</member>
+<member name="M:Core.Common.op_GreaterGreaterDot``2(Core.Common.Parser{``0},Core.Common.Parser{``1})">
+<summary>
+ behåller höger
+</summary>
+</member>
+<member name="M:Core.Common.op_DotGreaterGreater``2(Core.Common.Parser{``0},Core.Common.Parser{``1})">
+<summary>
+ behåller vänster
+</summary>
+</member>
+<member name="M:Core.Common.opt``1(Core.Common.Parser{``0})">
+<summary>
+ parsear något optional -&gt; some &lt;|&gt; none
+</summary>
+</member>
+<member name="M:Core.Common.many1``1(Core.Common.Parser{``0})">
+<summary>
+ matchar minst en av en parser
+</summary>
+</member>
+<member name="M:Core.Common.many``1(Core.Common.Parser{``0})">
+<summary>
+ matchar 0 eller mer av en parser
+</summary>
+</member>
+<member name="M:Core.Common.parseZeroOrMore``1(Core.Common.Parser{``0},System.String)">
+<summary>
+ parsea något tills fail / kör tills något hittas eller failar
+</summary>
+</member>
+<member name="M:Core.Common.seqParsers``1(Microsoft.FSharp.Collections.FSharpList{Core.Common.Parser{``0}})">
+<summary>
+ tar en lista med parsers och mappar till en parser av en lista
+</summary>
+</member>
+<member name="M:Core.Common.op_LessBarGreater``1">
+<summary>
+ infix för orElse
+</summary>
+</member>
+<member name="M:Core.Common.op_DotGreaterGreaterDot``2">
+<summary>
+ infix för andThen
+</summary>
+</member>
+<member name="M:Core.Common.applyParser``2(Core.Common.Parser{Microsoft.FSharp.Core.FSharpFunc{``0,``1}},Core.Common.Parser{``0})">
+<summary>
+ transformar en parser som har en funktion, t.ex parser&lt;a-&gt;b&gt; -&gt; parser&lt;a&gt; -&gt; parser&lt;b&gt;
+ &quot;applyar&quot; en wrappad funktion till en wrappad value
+</summary>
+</member>
+<member name="M:Core.Common.op_BarGreaterGreater``2(Core.Common.Parser{``0},Microsoft.FSharp.Core.FSharpFunc{``0,``1})">
+<summary>
+ infix av mapParse men reversead för pipeing
+</summary>
+</member>
+<member name="M:Core.Common.op_LessBangGreater``2">
+<summary>
+ infix av mapParse
+</summary>
+</member>
+<member name="M:Core.Common.mapParse``2(Microsoft.FSharp.Core.FSharpFunc{``0,``1})">
+<summary>
+ mappar a -&gt; b till parser&lt;a&gt; -&gt; parser&lt;b&gt;
+</summary>
+</member>
+<member name="M:Core.Common.returnParser``1(``0)">
+<summary>
+ transforma en normal value till parser, t.ex a -&gt; parser&lt;a&gt;
+</summary>
+</member>
+<member name="M:Core.Common.op_GreaterGreaterEquals``2(Core.Common.Parser{``0},Microsoft.FSharp.Core.FSharpFunc{``0,Core.Common.Parser{``1}})">
+<summary>
+ infix av bindParser
+</summary>
+</member>
+<member name="M:Core.Common.bindParser``2(Microsoft.FSharp.Core.FSharpFunc{``0,Core.Common.Parser{``1}},Core.Common.Parser{``0})">
+<summary>
+ input är diagonalt (a -&gt; parser&lt;b&gt;)
+ output är horisontell (parser&lt;a&gt; -&gt; parser&lt;b&gt;)
+ tar en f som gör en p, en p och kör
+ p och skickar output av p till f
+</summary>
+</member>
+<member name="M:Core.Common.parseChar(System.Char)">
+<summary>
+ kör en parser med input
+</summary>
+</member>
+<member name="M:Core.Common.satisfy(Microsoft.FSharp.Core.FSharpFunc{System.Char,System.Boolean},System.String)">
+<summary>
+ parsear en char
+</summary>
+</member>
+<member name="M:Core.SParser.op_GreaterGreaterPercent``2(Core.Common.Parser{``0},``1)">
+<summary>
+ infix som kör parser, ignorerar resultatet och returnar value
+</summary>
+</member>
+</members>
+</doc>
