@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/home/skogix/.nuget/packages/</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/home/skogix/.nuget/packages/</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.0.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="/home/skogix/.nuget/packages/" />
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)avalonia/0.9.7/build/Avalonia.props" Condition="Exists('$(NuGetPackageRoot)avalonia/0.9.7/build/Avalonia.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgFSharp_Core Condition=" '$(PkgFSharp_Core)' == '' ">/home/skogix/.nuget/packages/fsharp.core/6.0.1</PkgFSharp_Core>
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">/home/skogix/.nuget/packages/microsoft.codeanalysis.analyzers/1.1.0</PkgMicrosoft_CodeAnalysis_Analyzers>
+    <PkgAvalonia Condition=" '$(PkgAvalonia)' == '' ">/home/skogix/.nuget/packages/avalonia/0.9.7</PkgAvalonia>
+    <PkgAvalonia_Desktop Condition=" '$(PkgAvalonia_Desktop)' == '' ">/home/skogix/.nuget/packages/avalonia.desktop/0.9.7</PkgAvalonia_Desktop>
+    <PkgJaggerJo_Avalonia_FuncUI Condition=" '$(PkgJaggerJo_Avalonia_FuncUI)' == '' ">/home/skogix/.nuget/packages/jaggerjo.avalonia.funcui/0.4.0</PkgJaggerJo_Avalonia_FuncUI>
+    <PkgJaggerJo_Avalonia_FuncUI_Elmish Condition=" '$(PkgJaggerJo_Avalonia_FuncUI_Elmish)' == '' ">/home/skogix/.nuget/packages/jaggerjo.avalonia.funcui.elmish/0.4.0</PkgJaggerJo_Avalonia_FuncUI_Elmish>
+    <PkgJaggerJo_Avalonia_FuncUI_DSL Condition=" '$(PkgJaggerJo_Avalonia_FuncUI_DSL)' == '' ">/home/skogix/.nuget/packages/jaggerjo.avalonia.funcui.dsl/0.4.0</PkgJaggerJo_Avalonia_FuncUI_DSL>
+  </PropertyGroup>
+</Project>

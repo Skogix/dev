@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.0</TargetFramework>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="BreadthFirst.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Pathfinding.Core\Pathfinding.Core.fsproj" />
+      <ProjectReference Include="..\SLibrary\SLibrary.fsproj" />
+    </ItemGroup>
+
+</Project>
