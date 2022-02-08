@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "NkIYqe/xzX1TjUYT0yuPFvEhf/r3PrXUkz9cvNwleg5NWcYQjCk0bjbuyjJZceUrQjUm4vVQ4XRHzzkUQBqg6w==",
+  "success": true,
+  "projectFilePath": "/home/skogix/dev/GameEngine/Engine/Engine.csproj",
+  "expectedPackageFiles": [
+    "/home/skogix/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.0/microsoft.aspnetcore.app.ref.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

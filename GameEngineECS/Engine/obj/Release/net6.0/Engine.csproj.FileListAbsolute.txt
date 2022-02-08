@@ -1,0 +1,12 @@
+/home/skogix/dev/GameEngineECS/Engine/bin/Release/net6.0/Engine.deps.json
+/home/skogix/dev/GameEngineECS/Engine/bin/Release/net6.0/Engine.dll
+/home/skogix/dev/GameEngineECS/Engine/bin/Release/net6.0/ref/Engine.dll
+/home/skogix/dev/GameEngineECS/Engine/bin/Release/net6.0/Engine.pdb
+/home/skogix/dev/GameEngineECS/Engine/obj/Release/net6.0/Engine.csproj.AssemblyReference.cache
+/home/skogix/dev/GameEngineECS/Engine/obj/Release/net6.0/Engine.GeneratedMSBuildEditorConfig.editorconfig
+/home/skogix/dev/GameEngineECS/Engine/obj/Release/net6.0/Engine.AssemblyInfoInputs.cache
+/home/skogix/dev/GameEngineECS/Engine/obj/Release/net6.0/Engine.AssemblyInfo.cs
+/home/skogix/dev/GameEngineECS/Engine/obj/Release/net6.0/Engine.csproj.CoreCompileInputs.cache
+/home/skogix/dev/GameEngineECS/Engine/obj/Release/net6.0/Engine.dll
+/home/skogix/dev/GameEngineECS/Engine/obj/Release/net6.0/ref/Engine.dll
+/home/skogix/dev/GameEngineECS/Engine/obj/Release/net6.0/Engine.pdb

@@ -1,0 +1,116 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Engine/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Engine.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Engine.dll": {}
+        }
+      },
+      "RogueLikeGame/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Engine": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RogueLikeGame.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RogueLikeGame.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Engine/1.0.0": {
+      "type": "project",
+      "path": "../Engine/Engine.csproj",
+      "msbuildProject": "../Engine/Engine.csproj"
+    },
+    "RogueLikeGame/1.0.0": {
+      "type": "project",
+      "path": "../RogueLikeGame/RogueLikeGame.csproj",
+      "msbuildProject": "../RogueLikeGame/RogueLikeGame.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Engine >= 1.0.0",
+      "RogueLikeGame >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/skogix/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/skogix/dev/GameEngineECS/Console/Console.csproj",
+      "projectName": "Console",
+      "projectPath": "/home/skogix/dev/GameEngineECS/Console/Console.csproj",
+      "packagesPath": "/home/skogix/.nuget/packages/",
+      "outputPath": "/home/skogix/dev/GameEngineECS/Console/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/skogix/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "/home/skogix/dev/GameEngineECS/Engine/Engine.csproj": {
+              "projectPath": "/home/skogix/dev/GameEngineECS/Engine/Engine.csproj"
+            },
+            "/home/skogix/dev/GameEngineECS/RogueLikeGame/RogueLikeGame.csproj": {
+              "projectPath": "/home/skogix/dev/GameEngineECS/RogueLikeGame/RogueLikeGame.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.0, 6.0.0]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

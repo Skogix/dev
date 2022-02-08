@@ -1,0 +1,15 @@
+/home/skogix/dev/GameEngine/SimpleGame/bin/Release/net6.0/SimpleGame.deps.json
+/home/skogix/dev/GameEngine/SimpleGame/bin/Release/net6.0/SimpleGame.dll
+/home/skogix/dev/GameEngine/SimpleGame/bin/Release/net6.0/ref/SimpleGame.dll
+/home/skogix/dev/GameEngine/SimpleGame/bin/Release/net6.0/SimpleGame.pdb
+/home/skogix/dev/GameEngine/SimpleGame/bin/Release/net6.0/Engine.dll
+/home/skogix/dev/GameEngine/SimpleGame/bin/Release/net6.0/Engine.pdb
+/home/skogix/dev/GameEngine/SimpleGame/obj/Release/net6.0/SimpleGame.csproj.AssemblyReference.cache
+/home/skogix/dev/GameEngine/SimpleGame/obj/Release/net6.0/SimpleGame.GeneratedMSBuildEditorConfig.editorconfig
+/home/skogix/dev/GameEngine/SimpleGame/obj/Release/net6.0/SimpleGame.AssemblyInfoInputs.cache
+/home/skogix/dev/GameEngine/SimpleGame/obj/Release/net6.0/SimpleGame.AssemblyInfo.cs
+/home/skogix/dev/GameEngine/SimpleGame/obj/Release/net6.0/SimpleGame.csproj.CoreCompileInputs.cache
+/home/skogix/dev/GameEngine/SimpleGame/obj/Release/net6.0/SimpleGame.csproj.CopyComplete
+/home/skogix/dev/GameEngine/SimpleGame/obj/Release/net6.0/SimpleGame.dll
+/home/skogix/dev/GameEngine/SimpleGame/obj/Release/net6.0/ref/SimpleGame.dll
+/home/skogix/dev/GameEngine/SimpleGame/obj/Release/net6.0/SimpleGame.pdb

@@ -1,0 +1,15 @@
+/home/skogix/dev/GameEngineECS/RogueLikeGame/bin/Debug/net6.0/RogueLikeGame.deps.json
+/home/skogix/dev/GameEngineECS/RogueLikeGame/bin/Debug/net6.0/RogueLikeGame.dll
+/home/skogix/dev/GameEngineECS/RogueLikeGame/bin/Debug/net6.0/ref/RogueLikeGame.dll
+/home/skogix/dev/GameEngineECS/RogueLikeGame/bin/Debug/net6.0/RogueLikeGame.pdb
+/home/skogix/dev/GameEngineECS/RogueLikeGame/bin/Debug/net6.0/Engine.dll
+/home/skogix/dev/GameEngineECS/RogueLikeGame/bin/Debug/net6.0/Engine.pdb
+/home/skogix/dev/GameEngineECS/RogueLikeGame/obj/Debug/net6.0/RogueLikeGame.csproj.AssemblyReference.cache
+/home/skogix/dev/GameEngineECS/RogueLikeGame/obj/Debug/net6.0/RogueLikeGame.GeneratedMSBuildEditorConfig.editorconfig
+/home/skogix/dev/GameEngineECS/RogueLikeGame/obj/Debug/net6.0/RogueLikeGame.AssemblyInfoInputs.cache
+/home/skogix/dev/GameEngineECS/RogueLikeGame/obj/Debug/net6.0/RogueLikeGame.AssemblyInfo.cs
+/home/skogix/dev/GameEngineECS/RogueLikeGame/obj/Debug/net6.0/RogueLikeGame.csproj.CoreCompileInputs.cache
+/home/skogix/dev/GameEngineECS/RogueLikeGame/obj/Debug/net6.0/RogueLikeGame.csproj.CopyComplete
+/home/skogix/dev/GameEngineECS/RogueLikeGame/obj/Debug/net6.0/RogueLikeGame.dll
+/home/skogix/dev/GameEngineECS/RogueLikeGame/obj/Debug/net6.0/ref/RogueLikeGame.dll
+/home/skogix/dev/GameEngineECS/RogueLikeGame/obj/Debug/net6.0/RogueLikeGame.pdb

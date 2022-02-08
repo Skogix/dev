@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jSLH1fmKRZzZH1I7AhzSn3Kt1YN9yhEi4k5Qz4jSyy0ngyO/Kp1Zp/fqtHRvySg4uzf55jbBwea2ipw/DwsW+A==",
+  "success": true,
+  "projectFilePath": "/home/skogix/dev/GameEngine/SimpleGameUI/SimpleGameUI.csproj",
+  "expectedPackageFiles": [
+    "/home/skogix/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.0/microsoft.aspnetcore.app.ref.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
