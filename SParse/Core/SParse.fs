@@ -24,14 +24,14 @@ let pValueBool =
     >>% SBool false
   sTrue <|> sFalse <?> "bool"
 let pString =
-  let chars = anyOf (['a'..'z'] @ ['A'..'Z'])
+  let chars = anyOf (['a'..'z'] @ ['A'..'Z'] @ ['(';')'])
   let string =
     manyChars chars 
   string
   <?> "string parser"
 let pQuotedString =
   let quote = parseChar '\"' <?> "quote"
-  let chars = anyOf (['a'..'z'] @ ['A'..'Z'])
+  let chars = anyOf (['a'..'z'] @ ['A'..'Z'] @ ['(';')'])
   quote >>. manyChars chars .>> quote
 let pValueString =
   pQuotedString

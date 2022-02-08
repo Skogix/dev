@@ -1,21 +1,32 @@
-## Exempel
-
+Hemmagjord parser för att serialisera simpla text-commands.
+##### Exempel
 ```f# script
-true -> Sbool true
-false -> Sbool false
-null -> SNull
-42 -> SNumber 42.0
-0.5 -> SNumber 0.5
-command "string" -> SCommand ("command", Some (SString "string"))
-foo -> SCommand ("foo", None)
-"foo" -> SString "foo"
-{"objectString": "str"} -> SObject (map [("objectString", SString "str")])
+type SValue =
+  | SNull
+  | SBool of bool
+  | SString of string
+  | SNumber of float
+  | SArray of SValue list
+  | SObject of Map<string, SValue>
+  | SCommand of string * SValue option
+  
+true    -> Sbool true
+false   -> Sbool false
+null    -> SNull
+42      -> SNumber 42.0
+0.5     -> SNumber 0.5
+"foo"   -> SString "foo"
+[1, "str", true] -> 
+    SArray [SNumber 1.0; SString "str"; SBool true]
+{"objectString": "str"} -> 
+    SObject (map [("objectString", SString "str")])
+    
 // https://json.org/example.html
 {"menu":
     {"id": "file", "value": "File", "popup": {"menuitem": [
-        {"value": "New", "onclick": "CreateNewDoc"},
-        {"value": "Open", "onclick": "OpenDoc"},
-        {"value": "Close", "onclick": "CloseDoc"}
+        {"value": "New", "onclick": "CreateNewDoc()"},
+        {"value": "Open", "onclick": "OpenDoc()"},
+        {"value": "Close", "onclick": "CloseDoc()"}
     ]}}
 } -> 
 SObject
@@ -34,20 +45,24 @@ SObject
                           (SArray
                              [SObject
                                 (map
-                                   [("onclick", SString "CreateNewDoc");
+                                   [("onclick", SString "CreateNewDoc()");
                                     ("value", SString "New")]);
                               SObject
                                 (map
-                                   [("onclick", SString "OpenDoc");
+                                   [("onclick", SString "OpenDoc()");
                                     ("value", SString "Open")]);
                               SObject
                                 (map
-                                   [("onclick", SString "CloseDoc");
+                                   [("onclick", SString "CloseDoc()");
                                     ("value", SString "Close")])])))]));
              ("value", SString "File")]))])
+// commands är allt som inte matchar någon datatyp och en optional value
+bar -> SCommand ("bar", None)
+foo "string" -> 
+    SCommand ("foo", Some (SString "string"))
 ```
 
-## Funktioner
+##### Cheat Sheet
 __parseChar__ `char -> Parser<char>`<br />
 grundfunktionen som skapar en parser från en char
 
@@ -61,7 +76,7 @@ __<|>__ `Parser<'a> -> Parser<'a> -> Parser<'a>`<br />
 __orElse__ : or-combinator
 
 __<!>__ `('a -> 'b) -> Parser<'a> -> Parser<'b>`<br />
-__mapParse__ : kör en funktion (a->b) som transformar parser<a> -> parser<br />
+__mapParse__ : `<kör en funktion (a->b) som transformar parser<a> -> parser`
 
 __|>>__ `Parser<'a> -> ('a -> 'b) -> Parser<'b>`<br />
 __mapParse__ : reversed för enklare pipeing

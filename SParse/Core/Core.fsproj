@@ -8,6 +8,9 @@
     <ItemGroup>
         <Compile Include="Common.fs" />
         <Compile Include="SParse.fs" />
+        <Content Include="..\Readme.md">
+          <Link>Readme.md</Link>
+        </Content>
     </ItemGroup>
 
 </Project>
